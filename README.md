@@ -1,62 +1,60 @@
-<h1 align="center">Felipe Arthur Eckert</h1>
 <p align="center">
-  <b>Data Analyst · Python · Automation · Vehicle Data</b><br>
-  Electrical Engineer (Poli-USP) turning raw engineering data into tools and decisions
+  <img src="assets/header.svg" alt="Felipe Eckert, Data Analyst Version: pixel-art title in the rain with Luxray and Wooper" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/felipe-arthur-eckert-b745461a9"><img src="https://img.shields.io/badge/LinkedIn-003D7A?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://felipeeckert.github.io"><img src="https://img.shields.io/badge/Portfolio-003D7A?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"></a>
-  <a href="https://www.researchgate.net/profile/Felipe-Eckert-2/research"><img src="https://img.shields.io/badge/ResearchGate-003D7A?style=for-the-badge&logo=researchgate&logoColor=white" alt="ResearchGate"></a>
-  <a href="mailto:felipeeckert10@gmail.com"><img src="https://img.shields.io/badge/Email-003D7A?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/felipe-arthur-eckert-b745461a9"><img src="assets/link-linkedin.svg" alt="LinkedIn"></a>
+  <a href="https://felipeeckert.github.io"><img src="assets/link-portfolio.svg" alt="Portfolio"></a>
+  <a href="https://www.researchgate.net/profile/Felipe-Eckert-2/research"><img src="assets/link-researchgate.svg" alt="ResearchGate"></a>
+  <a href="mailto:felipeeckert10@gmail.com"><img src="assets/link-email.svg" alt="Email"></a>
 </p>
 
----
+<img src="assets/h-whoami.svg" alt="$ whoami" width="100%">
 
-### About me
+- R&D data analyst at **Hyundai Motor Brasil** (Energy Efficiency & Data Analytics): I build Python tools that process, validate, and report vehicle test data.
+- Electrical Engineer from **Poli-USP**. Six years on the **BAJA SAE** team, where telemetry data drove our design decisions.
+- I care about the parts of analytics that keep results reliable: clear validation rules, repeatable pipelines, and reports people actually use.
+- Currently leveling up **SQL** and **Power BI**; next up: **Databricks**.
+- Portuguese (native) · English (C1) · Spanish (B1)
 
-- 🔬 R&D data analyst at **Hyundai Motor Brasil** (Energy Efficiency & Data Analytics): I build Python tools that process, validate, and report vehicle test data.
-- ⚙️ I care about the parts of analytics that keep results reliable: clear validation rules, repeatable pipelines, and reports people actually use.
-- 🏎️ Six years on the Poli-USP **BAJA SAE** team, where telemetry data drove our design decisions.
-- 🌱 Currently deepening **SQL** and **Power BI**; next up: **Databricks**.
-- 🌎 Portuguese (native) · English (C1) · Spanish (B1)
+<img src="assets/h-skills.svg" alt="$ ./summary --skills" width="100%">
 
-### Tech stack
+<p align="center">
+  <img src="assets/skills.svg" alt="Trainer skills, Pokémon Platinum style: Python, Pandas, Validation, ML, Vehicle Data, Automation. Ability: Resilience. Next level: SQL, Power BI, Databricks." width="640">
+</p>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-003D7A?style=flat-square)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square)
+<p>
+  <img src="assets/stack-python.svg" alt="Python">
+  <img src="assets/stack-pandas.svg" alt="Pandas">
+  <img src="assets/stack-numpy.svg" alt="NumPy">
+  <img src="assets/stack-scikit-learn.svg" alt="scikit-learn">
+  <img src="assets/stack-xgboost.svg" alt="XGBoost">
+  <img src="assets/stack-plotly.svg" alt="Plotly">
+  <img src="assets/stack-streamlit.svg" alt="Streamlit">
+  <img src="assets/stack-jupyter.svg" alt="Jupyter">
+  <img src="assets/stack-sqlite.svg" alt="SQLite">
+  <img src="assets/stack-git.svg" alt="Git">
+  <img src="assets/stack-matlab.svg" alt="MATLAB">
+</p>
 
 **Automotive tooling:** CAN bus (Vector CANalyzer/CANoe) · Bosch ETAS INCA · VBOX GPS data acquisition · chassis dynamometer and coastdown testing
 
----
+<img src="assets/h-projects.svg" alt="$ ls ~/projects" width="100%">
 
-### Featured work
+<a href="https://github.com/FelipeEckert/f1-laptime-prediction"><img src="assets/project-1.svg" alt="f1-laptime-prediction: End-to-end ML on real F1 telemetry with FastF1, XGBoost and SHAP" width="100%"></a>
+<a href="https://doi.org/10.5151/2357-7592-PAP126"><img src="assets/project-2.svg" alt="coastdown-analysis: automated vehicle coastdown tests, about 80% less analysis time, published at SIMEA 2026" width="100%"></a>
+<a href="https://felipeeckert.github.io"><img src="assets/project-3.svg" alt="felipeeckert.github.io: React and Vite portfolio site" width="100%"></a>
 
-| Project | What it shows |
-|---|---|
-| 🏁 **[F1 Lap Time Prediction](https://github.com/FelipeEckert/f1-laptime-prediction)** | End-to-end ML on real telemetry: data collection with FastF1, EDA with per-race normalization, leave-one-race-out validation, and XGBoost + SHAP explainability. |
-| 📉 **Coastdown Data Analysis** *(industry work, code private)* | Python + Streamlit application that automates processing, statistical validation, and reporting of vehicle coastdown tests (ABNT NBR 10312). Cut road-load analysis time by ~80%. Published at SIMEA 2026 ⬇️ |
-| 🌐 **[Portfolio website](https://felipeeckert.github.io)** | React + Vite site summarizing my projects and experience. |
+<img src="assets/h-achievements.svg" alt="$ cat achievements.log" width="100%">
 
-### Publications
-
-📄 **[Data-Driven Coastdown Analysis: Automated Data Processing and Predictive Modeling for Vehicle Road Load and Energy Efficiency Assessment](https://doi.org/10.5151/2357-7592-PAP126)**<br>
-J. W. P. Silva, F. A. Eckert · *XXXIII SIMEA (2026), Blucher Engineering Proceedings, vol. 13, pp. 760–768* · DOI [10.5151/2357-7592-PAP126](https://doi.org/10.5151/2357-7592-PAP126)
-
-🎓 **[Sistema de aquisição de dados para protótipos off-road](https://www.researchgate.net/publication/411876977_Escola_Politecnica_da_Universidade_de_Sao_Paulo_Sistema_de_aquisicao_de_dados_para_prototipos_off_-road)** (data acquisition system for off-road prototypes)<br>
-F. A. Eckert · *Undergraduate thesis, Escola Politécnica da USP (2023)*
+- **[2026]** 1st place, **Hyundai Prompt-a-thon**: an *R&D Automotive Intelligence Hub* on Microsoft 365 Copilot that consolidates multi-source information into executive reports.
+- **[2026]** Paper at XXXIII SIMEA: **[Data-Driven Coastdown Analysis: Automated Data Processing and Predictive Modeling for Vehicle Road Load and Energy Efficiency Assessment](https://doi.org/10.5151/2357-7592-PAP126)**. J. W. P. Silva, F. A. Eckert · *Blucher Engineering Proceedings, vol. 13, pp. 760–768*
+- **[2023]** Undergraduate thesis, Poli-USP: **[Sistema de aquisição de dados para protótipos off-road](https://www.researchgate.net/publication/411876977_Escola_Politecnica_da_Universidade_de_Sao_Paulo_Sistema_de_aquisicao_de_dados_para_prototipos_off_-road)** (data acquisition system for off-road prototypes)
 
 More on [ResearchGate](https://www.researchgate.net/profile/Felipe-Eckert-2/research).
 
-### Recognition
+<p align="center">
+  <img src="assets/footer.svg" alt="Wooper says: thanks for stopping by!" width="100%">
+</p>
 
-🏆 **1st place, Hyundai Prompt-a-thon (2026)** for an *R&D Automotive Intelligence Hub* on Microsoft 365 Copilot that consolidates multi-source information into executive reports.
+<p align="center"><sub>Pixel sprites from <a href="https://github.com/PokeAPI/sprites">PokeAPI/sprites</a> and Pokémon Showdown (Lucas, edited). Pokémon © The Pokémon Company, Nintendo, Game Freak. Fan-made, non-commercial. Font: Pixelify Sans (OFL).</sub></p>
