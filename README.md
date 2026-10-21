@@ -20,7 +20,7 @@
 <img src="assets/h-skills.svg" alt="$ ./summary --skills" width="100%">
 
 <p align="center">
-  <img src="assets/skills.svg" alt="Trainer skills, Pokémon Platinum style: Python, React, Claude Code, ML, Data Pipelines, Automation. Ability: Resilience. Next level: SQL, Power BI, Databricks." width="640">
+  <img src="assets/skills.svg" alt="Trainer skills, Pokémon Platinum style: Python, React, Validation, ML, Data Pipelines, Automation. Ability: Resilience. Next level: SQL, Power BI, Databricks." width="640">
 </p>
 
 <p>
