@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Felipe Eckert, Data Builder Version: pixel-art title in the rain with Luxray and Wooper" width="100%">
+  <img src="assets/header.svg" alt="Felipe Eckert, Software &amp; Data Development: pixel-art title in the rain with Luxray and Wooper" width="100%">
 </p>
 
 <p align="center">
