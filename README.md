@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Felipe Eckert, Data Analyst Version: pixel-art title in the rain with Luxray and Wooper" width="100%">
+  <img src="assets/header.svg" alt="Felipe Eckert, Data Builder Version: pixel-art title in the rain with Luxray and Wooper" width="100%">
 </p>
 
 <p align="center">
@@ -11,20 +11,26 @@
 
 <img src="assets/h-whoami.svg" alt="$ whoami" width="100%">
 
-- R&D data analyst at **Hyundai Motor Brasil** (Energy Efficiency & Data Analytics): I build Python tools that process, validate, and report vehicle test data.
-- Electrical Engineer from **Poli-USP**. Six years on the **BAJA SAE** team, where telemetry data drove our design decisions.
-- I care about the parts of analytics that keep results reliable: clear validation rules, repeatable pipelines, and reports people actually use.
+- I build **data products end to end**: from raw files and sensors to validated pipelines, models, web apps, and the report someone actually reads.
+- **AI-first**: I work with **Claude and Claude Code** to plan, write, test, and refactor, so ideas turn into working software fast.
+- At **Hyundai Motor Brasil** (R&D, Energy Efficiency & Data Analytics) I designed and shipped an internal analysis app (Python, Streamlit, SQLite) that cut analysis time by ~80% and became a paper at SIMEA 2026.
+- Electrical Engineer from **Poli-USP**. Six years on the **BAJA SAE** team, where I helped build the car's telemetry data logger.
 - Currently leveling up **SQL** and **Power BI**; next up: **Databricks**.
 - Portuguese (native) · English (C1) · Spanish (B1)
 
 <img src="assets/h-skills.svg" alt="$ ./summary --skills" width="100%">
 
 <p align="center">
-  <img src="assets/skills.svg" alt="Trainer skills, Pokémon Platinum style: Python, Pandas, Validation, ML, Vehicle Data, Automation. Ability: Resilience. Next level: SQL, Power BI, Databricks." width="640">
+  <img src="assets/skills.svg" alt="Trainer skills, Pokémon Platinum style: Python, React, Claude Code, ML, Data Pipelines, Automation. Ability: Resilience. Next level: SQL, Power BI, Databricks." width="640">
 </p>
 
 <p>
   <img src="assets/stack-python.svg" alt="Python">
+  <img src="assets/stack-javascript.svg" alt="JavaScript">
+  <img src="assets/stack-react.svg" alt="React">
+  <img src="assets/stack-vite.svg" alt="Vite">
+  <img src="assets/stack-claude-code.svg" alt="Claude Code">
+  <img src="assets/stack-github-actions.svg" alt="GitHub Actions">
   <img src="assets/stack-pandas.svg" alt="Pandas">
   <img src="assets/stack-numpy.svg" alt="NumPy">
   <img src="assets/stack-scikit-learn.svg" alt="scikit-learn">
@@ -37,13 +43,13 @@
   <img src="assets/stack-matlab.svg" alt="MATLAB">
 </p>
 
-**Automotive tooling:** CAN bus (Vector CANalyzer/CANoe) · Bosch ETAS INCA · VBOX GPS data acquisition · chassis dynamometer and coastdown testing
+**Domains:** test and measurement data · sensor and time-series data · embedded data acquisition (STM32, CAN bus) · automotive R&D. I pick up new business domains quickly.
 
 <img src="assets/h-projects.svg" alt="$ ls ~/projects" width="100%">
 
 <a href="https://github.com/FelipeEckert/f1-laptime-prediction"><img src="assets/project-1.svg" alt="f1-laptime-prediction: End-to-end ML on real F1 telemetry with FastF1, XGBoost and SHAP" width="100%"></a>
-<a href="https://doi.org/10.5151/2357-7592-PAP126"><img src="assets/project-2.svg" alt="coastdown-analysis: automated vehicle coastdown tests, about 80% less analysis time, published at SIMEA 2026" width="100%"></a>
-<a href="https://felipeeckert.github.io"><img src="assets/project-3.svg" alt="felipeeckert.github.io: React and Vite portfolio site" width="100%"></a>
+<a href="https://doi.org/10.5151/2357-7592-PAP126"><img src="assets/project-2.svg" alt="coastdown-analysis: end-to-end Python app that automates test analysis and reporting, about 80% less analysis time, published at SIMEA 2026" width="100%"></a>
+<a href="https://felipeeckert.github.io"><img src="assets/project-3.svg" alt="felipeeckert.github.io: React and Vite site with canvas motion, built with Claude Code" width="100%"></a>
 
 <img src="assets/h-achievements.svg" alt="$ cat achievements.log" width="100%">
 
