@@ -22,6 +22,12 @@
 - Currently leveling up **SQL** and **Power BI**; next up: **Databricks**.
 - Portuguese (native) · English (C1) · Spanish (B1)
 
+### How I work with Claude Code
+
+- **Context lives in the repo.** Each project carries a `CLAUDE.md` with architecture and conventions, a `tasks/todo.md` plan, and a `lessons.md` log, so the agent and I work from the same plan.
+- **Agentic loops for the heavy lifting.** I hand Claude Code scoped tasks such as scaffolding, refactors, tests, and repository audits, then review and merge the diff myself.
+- **AI inside the product, too.** At Hyundai I co-built an R&D intelligence hub on Microsoft 365 Copilot that turns multi-source information into executive reports.
+
 ### Stack
 
 | Area | Tools |
