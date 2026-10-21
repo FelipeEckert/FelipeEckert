@@ -12,7 +12,6 @@
 <img src="assets/h-whoami.svg" alt="$ whoami" width="100%">
 
 - I build **data products end to end**: from raw files and sensors to validated pipelines, models, web apps, and the report someone actually reads.
-- **AI-first**: I work with **Claude and Claude Code** to plan, write, test, and refactor, so ideas turn into working software fast.
 - At **Hyundai Motor Brasil** (R&D, Energy Efficiency & Data Analytics) I designed and shipped an internal analysis app (Python, Streamlit, SQLite) that cut analysis time by ~80% and became a paper at SIMEA 2026.
 - Electrical Engineer from **Poli-USP**. Six years on the **BAJA SAE** team, where I helped build the car's telemetry data logger.
 - Currently leveling up **SQL** and **Power BI**; next up: **Databricks**.
@@ -49,7 +48,7 @@
 
 <a href="https://github.com/FelipeEckert/f1-laptime-prediction"><img src="assets/project-1.svg" alt="f1-laptime-prediction: End-to-end ML on real F1 telemetry with FastF1, XGBoost and SHAP" width="100%"></a>
 <a href="https://doi.org/10.5151/2357-7592-PAP126"><img src="assets/project-2.svg" alt="coastdown-analysis: end-to-end Python app that automates test analysis and reporting, about 80% less analysis time, published at SIMEA 2026" width="100%"></a>
-<a href="https://felipeeckert.github.io"><img src="assets/project-3.svg" alt="felipeeckert.github.io: React and Vite site with canvas motion, built with Claude Code" width="100%"></a>
+<a href="https://felipeeckert.github.io"><img src="assets/project-3.svg" alt="felipeeckert.github.io: React and Vite site with canvas motion" width="100%"></a>
 
 <img src="assets/h-achievements.svg" alt="$ cat achievements.log" width="100%">
 
