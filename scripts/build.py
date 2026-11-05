@@ -224,13 +224,12 @@ def cursor(x, y, fill=VOLT, px=2.4):
     return f'<g shape-rendering="crispEdges">{cells}</g>'
 
 
-def window(h, command):
-    """Section card frame: one rounded panel with a title strip that reads like a terminal prompt."""
+def window(h, title):
+    """Section card frame: one rounded panel with a title strip."""
     return (f'<rect x="1" y="1" width="{W - 2}" height="{h - 2}" rx="10" fill="{PANEL}" stroke="{EDGE}" stroke-width="2"/>'
             f'<path d="M2 11a9 9 0 0 1 9-9h{W - 22}a9 9 0 0 1 9 9v41H2z" fill="{BAR}"/>'
             f'<rect x="2" y="52" width="{W - 4}" height="2" fill="{EDGE}"/>'
-            f'<text x="24" y="35" font-size="22" font-weight="700"><tspan fill="{VOLT}">$ </tspan>'
-            f'<tspan fill="{INK}">{pesc(command)}</tspan></text>')
+            f'<text x="24" y="35" fill="{VOLT}" font-size="22" font-weight="700">{pesc(title)}</text>')
 
 
 PAD_X, TOP = 26, 92  # left padding and first baseline under the title strip
@@ -419,8 +418,8 @@ def whoami_card():
             out.append(rich_line(x_text, y + i * lh, words, size))
         y += len(lines) * lh + gap
     h = y - gap - lh + 34
-    body = window(h, "whoami") + "".join(out)
-    return svg(W, h, f"text{{font-family:{PIX};white-space:pre}}", body, "$ whoami. " + " ".join(plain(s) for s in WHOAMI))
+    body = window(h, "Who am I") + "".join(out)
+    return svg(W, h, f"text{{font-family:{PIX};white-space:pre}}", body, "Who am I. " + " ".join(plain(s) for s in WHOAMI))
 
 
 def chips(items, x0, y0, width, size=15):
@@ -452,11 +451,11 @@ def skills_card(lucas, pory):
         last = y + i * 27
     h = last + 34
     S = SKILLS
-    label = ("$ ./summary --skills. Trainer skills card, Pokémon Platinum style: "
+    label = ("Skills. Trainer skills card, Pokémon Platinum style: "
              f"{S['hp'][0]} {S['hp'][1]}; " + "; ".join(f"{a} {b}" for a, b in S["stats"])
              + f". Ability: {S['ability']}. Next level: {S['next']}. Stack: {', '.join(STACK)}. Domains: {DOMAINS}")
     style = (f"text{{font-family:{PIX};white-space:pre}}text.m{{font-family:{MONO}}}" + pcss)
-    return svg(W, h, style, window(h, "./summary --skills") + "".join(body), label)
+    return svg(W, h, style, window(h, "Skills") + "".join(body), label)
 
 
 def projects_card():
@@ -474,8 +473,8 @@ def projects_card():
         out.append(f'<text x="{PAD_X + 22}" y="{y + 2}" fill="{VOLT}" font-size="16">{esc(tag)}</text>')
         y += 62
     h = y - 62 + 30
-    label = "$ ls ~/projects. " + " ".join(f"{n}: {d} ({t})." for n, d, t in PROJECTS)
-    return svg(W, h, f"text{{font-family:{PIX};white-space:pre}}", window(h, "ls ~/projects") + "".join(out), label)
+    label = "Projects. " + " ".join(f"{n}: {d} ({t})." for n, d, t in PROJECTS)
+    return svg(W, h, f"text{{font-family:{PIX};white-space:pre}}", window(h, "Projects") + "".join(out), label)
 
 
 def achievements_card():
@@ -489,8 +488,8 @@ def achievements_card():
             out.append(rich_line(x_text, y + i * lh, words, size))
         y += len(lines) * lh + gap
     h = y - gap - lh + 34
-    label = "$ cat achievements.log. " + " ".join(f"[{yr}] {plain(t)}" for yr, t in ACHIEVEMENTS)
-    return svg(W, h, f"text{{font-family:{PIX};white-space:pre}}", window(h, "cat achievements.log") + "".join(out), label)
+    label = "Achievements. " + " ".join(f"[{yr}] {plain(t)}" for yr, t in ACHIEVEMENTS)
+    return svg(W, h, f"text{{font-family:{PIX};white-space:pre}}", window(h, "Achievements") + "".join(out), label)
 
 
 # ---------------------------------------------------------------- small pieces
