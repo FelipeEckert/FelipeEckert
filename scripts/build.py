@@ -61,8 +61,8 @@ PROJECTS = [
      "tonal assistants, Catch2 tests and CI. Built Claude-first with a friend.", "c++ · juce · ci"),
     ("coastdown-analysis", "Streamlit app that automates vehicle coastdown tests (NBR 10312). "
      "~80% less analysis time. Code private.", "published at SIMEA 2026"),
-    ("f1-laptime-prediction", "End-to-end ML on real F1 telemetry: FastF1, leave-one-race-out validation, "
-     "XGBoost + SHAP.", "python · ml"),
+    ("paper-trading-simulator", "Full-stack Next.js and Postgres app: trade currencies and crypto with virtual cash "
+     "at live quotes, a REST API for bots, a backtester and a leaderboard. Live demo on Vercel.", "next.js · postgres · api"),
     ("felipeeckert.github.io", "React + Vite site with scroll-driven canvas motion.", "web"),
 ]
 
@@ -78,7 +78,7 @@ ACHIEVEMENTS = [
 
 # Small link pills: header contact links and the "open" links under some cards.
 LINKS = {"linkedin": "linkedin", "portfolio": "portfolio", "researchgate": "researchgate", "email": "email",
-         "finale": "finale", "coastdown-paper": "coastdown paper", "f1": "f1-laptime-prediction",
+         "finale": "finale", "coastdown-paper": "coastdown paper", "trading": "paper trading demo",
          "site": "portfolio site", "simea-paper": "simea paper", "thesis": "thesis"}
 
 # ---------------------------------------------------------------- font
