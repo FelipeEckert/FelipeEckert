@@ -63,6 +63,9 @@ PROJECTS = [
      "~80% less analysis time. Code private.", "published at SIMEA 2026"),
     ("paper-trading-simulator", "Full-stack Next.js and Postgres app: trade currencies and crypto with virtual cash "
      "at live quotes, a REST API for bots, a backtester and a leaderboard. Live demo on Vercel.", "next.js · postgres · api"),
+    ("vehicle-energy-efficiency", "Predicts label energy consumption from a vehicle's spec sheet: XGBoost vs. PyTorch "
+     "networks under grouped nested CV with Optuna, monotonic constraints, uncertainty ranges and a Streamlit app.",
+     "python · ml · streamlit"),
     ("felipeeckert.github.io", "React + Vite site with scroll-driven canvas motion.", "web"),
 ]
 
@@ -78,7 +81,7 @@ ACHIEVEMENTS = [
 
 # Small link pills: header contact links and the "open" links under some cards.
 LINKS = {"linkedin": "linkedin", "portfolio": "portfolio", "researchgate": "researchgate", "email": "email",
-         "finale": "finale", "coastdown-paper": "coastdown paper", "trading": "paper trading demo",
+         "finale": "finale", "coastdown-paper": "coastdown paper", "trading": "paper trading demo", "efficiency": "efficiency estimator",
          "site": "portfolio site", "simea-paper": "simea paper", "thesis": "thesis"}
 
 # ---------------------------------------------------------------- font
